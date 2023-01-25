@@ -45,6 +45,8 @@ var num3 = 0.2;
 var sum = num2 + num3;
 console.log(sum)
 
+console.log(typeof sum)
+
 var sum = sum.toFixed(1);
 console.log(sum)
 
@@ -52,3 +54,12 @@ console.log(sum)
 
 var sum = parseFloat(sum);
 console.log(sum)
+
+// Reminder Operator
+
+var token = 254;
+var coin = 12;
+var totalTokenCoin = token % coin;
+console.log(totalTokenCoin)
+// Type of operator
+console.log(typeof totalTokenCoin)
