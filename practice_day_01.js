@@ -63,3 +63,8 @@ var totalTokenCoin = token % coin;
 console.log(totalTokenCoin)
 // Type of operator
 console.log(typeof totalTokenCoin)
+
+var num21 = 17;
+var num22 = 5;
+var sum = num21 % num22;
+console.log(sum)
